@@ -1,0 +1,433 @@
+/*
+aymane kherrati 
+ -bgcolor:   #fff
+-bglight:   #f5f9f4
+-textDark:  #0E0C34
+-textLight: #82818A
+-    gray:  #DEDEDE
+-primary:   #A2DE96 
+  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    color:#0E0C34;
+    font-size: 100% ;
+    line-height: 1.5em;
+}
+section{
+    padding: 4.5rem 0;
+}
+button {
+     
+}
+
+.btn {
+    background-color:#A2DE96 ;
+    color: #0E0C34;
+    padding: 0.75rem 2rem;
+    display: inline-block;
+    font-weight:bold;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn:hover {
+    background-color: #A2DE96;
+    color: #fff;
+}
+.btn-small { 
+    background-color: #dedede;
+    font-size: 0.75rem;
+    padding: 0.5rem 2rem;
+}
+.btn-small-active {
+    background-color: #A2DE96;
+    color: #fff;
+}
+.container {
+    /* background-color: aqua; */
+    width: 960px;
+    margin: 0 auto ;
+
+}
+.row {
+    /* background-color:rgba(165, 42, 42, 0.322) */
+}
+.col-1-2 , 
+.col-1-3, 
+.col-1-4 {
+    float: left;
+
+}
+.clear {
+    clear: both ;
+}
+.col-1-2 {
+    width: 50%;
+}
+.col-1-3 {
+    width: 33%;
+}
+.col-1-4 {
+    width: 25%;
+}
+
+/* ************debut de style header *************** */
+
+header{
+    padding: 1rem;
+}
+a {
+    color: #82818A;
+    text-decoration: none;
+}
+a:hover {
+    color: #A2DE96;
+}
+ul {
+    list-style: none ;
+    padding: 0;
+}
+.logo {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+ .logo img {
+    height: 2rem;
+    margin-bottom: -0.5rem;
+    margin-right: 0.5rem;
+} 
+header .navbar {
+    display: inline-block;
+    float: right;
+    
+}
+header .navbar li {
+    display: inline-block;
+    margin-right:1.5rem ;
+    padding: 0.5rem 0;
+    
+}
+header .navbar li .active{ 
+    color: #A2DE96;
+ }
+
+ /* ************fin de style de header*********** */
+
+/* **************head*********** */
+
+.head-img{
+    width: 80%;
+    margin-left: 20%;
+}
+.head-info h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+.head-info .sub-header {
+    font-size:  1.5rem;
+    font-weight: bold;
+    color: #A2DE96;
+}
+.head-info .sub-text{
+    margin: 1.5rem 0;
+    padding-right: 1.5rem;
+}
+
+/* ************avantages*********** */
+#avantages {
+    background-color:#f5f9f4 ;
+}
+#avantages h2 {
+    text-align: center;
+    margin-bottom: 4.5rem;
+}
+#avantages .col-1-3 {
+    text-align: center;
+    padding: 0 1rem;
+}
+#avantages .col-1-3 img {
+    height: 4rem;
+
+}
+#avantages .col-1-3 h3 {
+    margin: 1rem 0;
+}
+#avantages .col-1-3 p {
+    color:#82818A ;
+}
+
+/* **************** menu*************** */
+
+#menu h2 {
+    margin-bottom: 1rem;
+}
+.menu-filtres {
+    margin-bottom: 2rem;
+}
+.menu-filtres .filtres {
+    display: inline-block;
+    margin-top: 0.75rem;
+}
+.menu-filtres a { float: right;
+
+}
+.menu-produits .produits{
+    margin: 0.5rem;
+    border: 2px dashed #A2DE96;
+    border-radius: 40px;
+     overflow: hidden; 
+    height: 15rem;
+    position: relative;
+
+}
+.menu-produits .produits img {
+    width: 100%;
+    position: absolute;
+}
+.produits-info {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    border-radius: 30px;
+    /* padding: 1rem 1.5rem; */
+    width: 100%;
+    text-align: center;
+}
+.produits-info h3 {
+    font-size: 1rem;
+}
+.produits-info span {
+    color: #A2DE96;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+.produits-btn {
+    background-color: #A2DE96;
+    border: none;
+    padding: 0.2rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    color: #fff;
+    position:absolute ;
+    right: 1rem ;
+    bottom: 1rem;
+    cursor: pointer;
+}
+.produits-btn:hover {
+    background-color:#8ddb81;
+    
+} 
+
+/* ******************* cta ******************* */
+#cta .book {
+    background-color: antiquewhite;
+    border-radius: 40px;
+    background-image: url(./assets/images/reservation.png);
+    background-size: cover;
+    background-position: center center;
+}
+#cta .book-box {
+    background-color: rgba(162, 222,150,0.9);
+    width: 50%;
+    border-radius: 40px;
+    text-align: center;
+    padding:1rem 1rem ;
+}
+#cta .book-box h2 {
+    color:#fff;
+    margin-bottom: 1.5rem;
+
+}
+#cta .book-box .form-group {
+    display:inline-block;
+    font-size: 0.75rem;
+    margin: 0 0.75rem;
+    
+
+}
+#cta .book-box .form-group  label{
+    display: block;
+    text-align: left;
+}
+#cta .book-box .form-group input ,
+#cta .book-box .form-group select {
+    border: 1.5px dashed #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+}
+#cta .book-box .form-group select {
+    padding:2px ;
+}
+#cta .book-box .form-group option {
+    color: #0E0C34;
+}
+#cta .book-box form button {
+    background-color:#f5f5f5 ;
+    display: inline-block;
+    margin-top:1.5rem ;
+}
+
+/* ******************avis*************** */
+#avis {
+    background-color: #f5f5f5;
+}
+#avis h2 {
+    text-align: center;
+    margin-bottom: 4.5rem;
+}
+#avis .avis {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+#avis .avis .info {
+    margin: 1rem;
+}
+#avis .avis .info img {
+    width: 3rem;
+    border-radius: 50px;
+    display: inline-block;
+
+}
+#avis .avis .info .donnes-client {
+    display: inline-block;
+    margin-left: 1rem;
+}
+#avis .avis .etoiles {
+    text-align: right;
+    margin-top: 1rem;
+}
+#avis .avis .etoiles img {
+    width: 1.5rem;
+}
+#avis .avis p {
+    color: #82818A;
+}
+#avis .trois-point {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+#avis .trois-point span {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50px;
+    background-color:#dedede;
+    cursor: pointer;
+    margin: 0 0.25rem;
+    
+}
+#avis .trois-point span.active {
+    background-color: #8ddb81;
+}
+
+/* **************** contact ****************** */
+
+#contact .contact-box {
+    background-color: #f5f5f5;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 1.5rem 1.5rem;
+    border:2px #8ddb81 dashed;
+    position: relative;
+
+}
+#contact .contact-info {
+    display: inline-block;
+    width: 65%;
+}
+#contact .contact-cta {
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+#contact .contact-info p {
+    margin-top: 1rem;
+    color: #82818A;
+}
+#contact .contact-box h2 {
+    font-weight: bold;
+    margin: 1rem 1rem;
+}
+footer .reseaux-links {
+    margin-top: 1.5rem;
+}
+footer .reseaux-links a{
+    margin-right: 0.75rem;
+}
+footer .reseaux-links img {
+    height: 1.25rem;
+}
+footer h3 {
+    margin-bottom: 1rem;
+}
+footer .footer-copyright {
+    background-color: #f5f5f5;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    color: #82818A;
+}
+
+ /* *************** page de connexion ******************  */
+#pagedeconnexion {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+#pagedeconnexion h1 {
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.pagedeconnexion {
+    width: 100%;
+    
+    padding: 30px;
+    border: 2px solid #f5f9f4;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2),0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.utilisateur , .motdepasse {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color:#82818a1a;
+    display: inline-block;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    
+}
+.submit {
+    background-color:#A2DE96  ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit:hover {
+    background-color: white;
+    color:#8ddb81 ;
+    border: 1px solid#A2DE96  ;
+}
+
+/* ************** fin de page de connexion********************** */
+
